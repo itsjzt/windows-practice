@@ -1,0 +1,15 @@
+﻿<Window x:Name="microMusicPlayer" x:Class="MicroMusicPlayer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MicroMusicPlayer"
+        mc:Ignorable="d"
+        Title="Micro Music Player" Height="450" Width="800">
+    <Grid RenderTransformOrigin="0.498,0.516">
+        <Button x:Name="select_song_btn" Content="Play Audio" HorizontalAlignment="Left" Margin="247,187,0,0" VerticalAlignment="Top" Width="75" Click="play_audio" IsDefault="True"/>
+        <Button x:Name="pause_btn" Content="Pause Audio" HorizontalAlignment="Left" Margin="418,187,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="2.062,0.685" Click="pause_audio"/>
+        <ProgressBar x:Name="musicProgess" HorizontalAlignment="Left" Height="10" Margin="160,329,0,0" VerticalAlignment="Top" Width="475"/>
+
+    </Grid>
+</Window>

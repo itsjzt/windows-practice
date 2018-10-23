@@ -1,0 +1,16 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:pictureApp"
+        xmlns:Properties="clr-namespace:pictureApp.Properties" x:Class="pictureApp.MainWindow"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="reverseTextBox" HorizontalAlignment="Left" Height="31" Margin="50,157,0,0" TextWrapping="Wrap" Text="Textbox&#xD;&#xA;" VerticalAlignment="Top" Width="203"/>
+        <Button x:Name="reverseButton" Content="Reverse" HorizontalAlignment="Left" Margin="51,233,0,0" VerticalAlignment="Top" Width="96" RenderTransformOrigin="-4.312,0.507" FontSize="16" Height="32" Click="Button_Click_1"/>
+        <Label Content="Reverse String" HorizontalAlignment="Left" Margin="46,71,0,0" VerticalAlignment="Top" FontSize="36" FontWeight="Bold" Height="61" Width="442"/>
+        <TextBox x:Name="Result" HorizontalAlignment="Left" Height="37" Margin="55,320,0,0" TextWrapping="Wrap" Text="Result" VerticalAlignment="Top" Width="201"/>
+    </Grid>
+</Window>

@@ -1,0 +1,15 @@
+﻿<Window x:Class="Palindrome.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Palindrome"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="Label1" Content="Check if it's Palindrome" HorizontalAlignment="Left" Margin="49,64,0,0" VerticalAlignment="Top" FontSize="24"/>
+        <TextBox x:Name="Textbox1" HorizontalAlignment="Left" Height="30" Margin="58,145,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="261" FontSize="16"/>
+        <Button x:Name="Button1" Content="Button" HorizontalAlignment="Left" Margin="61,254,0,0" VerticalAlignment="Top" Width="166" Height="47" Click="Button_Click" FontSize="16" FontWeight="Medium"/>
+
+    </Grid>
+</Window>
